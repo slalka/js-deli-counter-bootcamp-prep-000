@@ -9,5 +9,10 @@ function nowServing(l){
 }
 function currentLine(l){
   if(!l.length) return "The line is currently empty.";
-
+  var a = l.length;
+  var b = ""
+  while(a--){
+    l[a] = a+1 + ". " + l[a];
+  }
+  return l.join(", ")
 }
