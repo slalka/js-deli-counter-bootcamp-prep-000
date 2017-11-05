@@ -5,5 +5,5 @@ function takeANumber(l,n){
 }
 function nowServing(l){
   if(!l.length) return 'There is nobody waiting to be served!';
-  return l.shift();
+  return `Currently Serving ${l.shift()}.`;
 }
