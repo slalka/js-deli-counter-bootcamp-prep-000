@@ -14,5 +14,5 @@ function currentLine(l){
   while(a--){
     l[a] = a+1 + ". " + l[a];
   }
-  return l.join(", ")
+  return "The line is currently:" + l.join(", ")
 }
