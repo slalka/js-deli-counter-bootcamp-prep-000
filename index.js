@@ -9,5 +9,5 @@ function nowServing(l){
 }
 function currentLine(l){
   if(!l.length) return "The line is currently empty.";
-  
+
 }
